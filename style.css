@@ -15,6 +15,12 @@ h1 {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
 .schedule-img {
   max-width: 90%;
   margin: 25px auto;
@@ -60,8 +66,8 @@ h1 {
 /* Back button */
 .back-btn {
   display: inline-block;
-  margin: 15px;
-  padding: 10px 15px;
+  margin: 5px;
+  padding: 5px 10px;
   background: #eee;
   color: #333;
   text-decoration: none;
@@ -76,13 +82,15 @@ h1 {
 
 /* Nav buttons inside category pages */
 .nav-buttons {
-  margin: 15px;
+  margin: 5px 0;
+  text-align: center;
 }
 
 .nav-buttons .btn {
-  margin: 0 5px;
-  padding: 10px 15px;
-  border-radius: 8px;
+  margin: 0 3px;
+  padding: 6px 10px;  /* smaller padding */
+  font-size: 0.85rem; /* smaller text */
+  border-radius: 6px;
 }
 
 .btn.gray {
@@ -114,17 +122,17 @@ iframe {
 .sheet-container {
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 120px); /* slightly smaller */
 }
 
 .sheet-container.zoom-in iframe {
-  transform: scale(1.3);
+  transform: scale(0.8);
   transform-origin: top left;
-  width: 77%;
+  width: 150%;
 }
 
 .sheet-container.zoom-out iframe {
-  transform: scale(0.85);
+  transform: scale(0.9);
   transform-origin: top left;
-  width: 118%;
+  width: 120%;
 }

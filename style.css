@@ -138,6 +138,13 @@ iframe {
   height: 1200px;
 }
 
+.sheet-container.zoom-out-e iframe {
+  transform: scale(0.65);
+  transform-origin: top left;
+  width: 200%;
+  height: 1200px;
+}
+
 .sheet-container.zoom-out-out iframe {
   transform: scale(0.5);
   transform-origin: top left;
